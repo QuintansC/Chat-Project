@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './index.css';
 import { io } from "socket.io-client";
 
-function App() {
+function Chat() {
   const [inputMessage, setInputMessage] = useState("");
   const [messages] = useState<string[]>([]);
   const socket = io('http://localhost:3333/').connect();
@@ -34,4 +34,4 @@ function App() {
   )
 }
 
-export default App
+export default Chat

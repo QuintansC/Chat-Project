@@ -1,0 +1,25 @@
+form { display: flex; flex-direction: column; width: 20vw; margin-top: 25vh; height: 50vh;}
+
+form{
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 40%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+form div input { 
+
+    height: 25px;
+}
+
+form > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff;  width: 50%; height: 8%;}
+
