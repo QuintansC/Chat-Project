@@ -1,0 +1,12 @@
+{
+    "name": "Chat",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:QuintansC/Chat-Project.git",
+    "author": "QuintansC <gustavosantos.2095@gmail.com>",
+    "license": "MIT",
+     "scripts": {
+        "dev:front": "cd client && yarn dev",
+        "dev:back": "cd server && yarn dev"
+    }
+}

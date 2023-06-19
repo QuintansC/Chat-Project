@@ -8,12 +8,17 @@ app.use(express.json());
 app.use(cors());
 
 const server = http.createServer(app);
+
 const io = new Server(server, {
     cors:{
         origin: 'http://localhost:5173',
         methods: ['GET', 'POST']
     }
 });
+
+app.post('/login', (req: Request, res: Response) => {
+    res.status(200).send({ message: 'teste'})
+})
 
 io.on('connection', (socket) => {
     socket.on('message', msg => {

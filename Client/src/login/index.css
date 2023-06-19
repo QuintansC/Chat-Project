@@ -1,13 +1,13 @@
-form { display: flex; flex-direction: column; width: 20vw; margin-top: 25vh; height: 50vh;}
+#formLogin { display: flex; flex-direction: column; width: 20vw; margin-top: 25vh; height: 50vh;}
 
-form{
+#formLogin{
     display: flex;
     background-color: gray;
     align-items: center;
     justify-content: center;
 }
 
-form div {
+#formLogin div {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -16,10 +16,10 @@ form div {
     margin-bottom: 20px;
 }
 
-form div input { 
+#formLogin div input { 
 
     height: 25px;
 }
 
-form > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff;  width: 50%; height: 8%;}
+#formLogin > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff;  width: 50%; height: 8%;}
 
